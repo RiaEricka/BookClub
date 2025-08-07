@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
@@ -12,6 +12,9 @@ class Books(db.Model):
     book_id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(100),nullable=False)
     author = db.Column(db.String(100),nullable=False)
+
+    def __repr__(self):
+        return super().__repr__()
      
 
 @app.route("/")
@@ -20,3 +23,5 @@ def home():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
