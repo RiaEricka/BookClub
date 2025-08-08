@@ -1,8 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: brown;
+body {
+    background-color: #2a220f;
 }
+
+.nav_links {
+    background: white;
+    box-shadow: 0px 0px 10px;
+    margin: 0;
+    padding: 1rem 0;
+    border-radius:var(--radius);
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.nav_links li a {
+    list-style: none;
+    margin-right: 2rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
