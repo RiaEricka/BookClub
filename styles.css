@@ -1,25 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 body {
-    background-color: #2a220f;
+    background-color: #91815a;
+    margin: 0;
+    padding: 0;
 }
 
 .nav_links {
-    background: white;
-    box-shadow: 0px 0px 10px;
-    margin: 0;
-    padding: 1rem 0;
-    border-radius:var(--radius);
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.nav_links li {
+  padding: 10px 40px;
+  margin: 40px;
+  background: #fffff0;
+  border-radius: 40px;
+  
 }
 
 .nav_links li a {
-    list-style: none;
-    margin-right: 2rem;
-    
+  font-family: 'Public Sans';
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 1px;
 }
+
+#logo {
+  font-family: 'Kaushan Script';
+  background-color: transparent;
+  font-size: 20px;
+  
+}
+
+
+
+
 
 
 
