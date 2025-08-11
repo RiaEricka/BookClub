@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Club</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}"> 
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="bar">
         <ul class="nav_links">
-            <li><a href="#">Le Book Club </a></li>
+   
             <li><a href="#">Home</a></li>
             <li><a href="#">Login</a></li>
             <li><a href="#">Get to Know Us</a></li>
+    
+          <li id="logo">Le Book Club</li> 
+            
         </ul>
     </nav>
     </header>
